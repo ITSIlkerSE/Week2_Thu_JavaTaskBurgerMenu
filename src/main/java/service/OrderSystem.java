@@ -1,6 +1,9 @@
+package service;
+
+import model.Menu;
+
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Scanner;
 
 public class OrderSystem {
 

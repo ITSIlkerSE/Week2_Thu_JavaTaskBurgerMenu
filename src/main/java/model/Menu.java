@@ -1,3 +1,5 @@
+package model;
+
 import java.util.Objects;
 
 public class Menu {
@@ -87,12 +89,11 @@ public class Menu {
 
     @Override
     public String toString() {
-        return "Menu{" +
-                "menuNumber=" + menuNumber +
-                ", price=" + price +
-                ", main_Dish='" + main_Dish + '\'' +
-                ", side_Dish='" + side_Dish + '\'' +
-                ", beverage='" + beverage + '\'' +
-                '}';
+        return " " + "\n" +
+                " menu: " + menuNumber + "\n" +
+                " price: " + price + "\n" +
+                " main dish: " + main_Dish + "\n" +
+                " side dish: " + side_Dish + "\n" +
+                " beverage: " + beverage + "\n" ;
     }
 }
